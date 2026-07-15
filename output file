@@ -1,0 +1,141 @@
+shape: (10, 5)
+[[78 91 68 54 82]
+ [47 60 78 97 58]
+ [62 50 50 63 92]
+ [75 79 63 42 61]
+ [92 41 63 83 69]
+ [77 41 99 60 72]
+ [51 97 61 83 64]
+ [88 66 98 81 67]
+ [99 55 54 86 90]
+ [83 94 91 96 42]]
+total pre student: [373 340 317 320 348 349 356 400 384 406]
+avg per student: [75. 68. 63. 64. 70. 70. 71. 80. 77. 81.]
+math:75.2.1f
+science:67.4.1f
+english:72.5.1f
+hindi:74.5.1f
+coputer:69.7.1f
+Class Avg: 71.86
+Std Dev  : 17.52
+Max Mark : 99
+Min Mark : 41
+rahul   |avg : 74.6| grade:['B' 'C' 'C' 'C' 'C' 'C' 'B' 'A' 'B' 'A']
+priya   |avg : 68.0| grade:['B' 'C' 'C' 'C' 'C' 'C' 'B' 'A' 'B' 'A']
+amit    |avg : 63.4| grade:['B' 'C' 'C' 'C' 'C' 'C' 'B' 'A' 'B' 'A']
+neha    |avg : 64.0| grade:['B' 'C' 'C' 'C' 'C' 'C' 'B' 'A' 'B' 'A']
+ravi    |avg : 69.6| grade:['B' 'C' 'C' 'C' 'C' 'C' 'B' 'A' 'B' 'A']
+pooja   |avg : 69.8| grade:['B' 'C' 'C' 'C' 'C' 'C' 'B' 'A' 'B' 'A']
+karan   |avg : 71.2| grade:['B' 'C' 'C' 'C' 'C' 'C' 'B' 'A' 'B' 'A']
+sneha   |avg : 80.0| grade:['B' 'C' 'C' 'C' 'C' 'C' 'B' 'A' 'B' 'A']
+arjun   |avg : 76.8| grade:['B' 'C' 'C' 'C' 'C' 'C' 'B' 'A' 'B' 'A']
+divya   |avg : 81.2| grade:['B' 'C' 'C' 'C' 'C' 'C' 'B' 'A' 'B' 'A']
+
+failed student: ['priya' 'neha' 'ravi' 'pooja' 'divya']
+rank  name        total    avg grade 
+------------------------------------------
+1    divya        406
+2    sneha        400
+3    arjun        384
+4    rahul        373
+5    karan        356
+6    pooja        349
+7    ravi         348
+8    priya        340
+9    neha         320
+10   amit         317
+
+top 3: ['divya' 'sneha' 'arjun']
+needs help: ['priya' 'neha' 'amit']
+rahul   |best : science   | improve:hindi
+priya   |best : hindi     | improve:math
+amit    |best : coputer   | improve:science
+neha    |best : science   | improve:hindi
+ravi    |best : math      | improve:science
+pooja   |best : english   | improve:science
+karan   |best : science   | improve:math
+sneha   |best : english   | improve:science
+arjun   |best : math      | improve:english
+divya   |best : hindi     | improve:coputer
+math      : arjun(99)
+science   : karan(97)
+english   : pooja(99)
+hindi     : priya(97)
+coputer   : amit(92)
+normalized(first row): [1. 1. 0. 0. 1.] 2
+z_score(first row ): [ 0.35  1.09 -0.22 -1.02  0.58]
+rahul:74.6%
+priya:68.0%
+amit:63.4%
+neha:64.0%
+ravi:69.6%
+pooja:69.8%
+karan:71.2%
+sneha:80.0%
+arjun:76.8%
+divya:81.2%
+=======================================================
+      FINAL STUDENT REPORT SUMMARY
+=======================================================
+Name        Total    Avg  Rank  Grade
+-------------------------------------------------------
+rahul         373   74.6     4      B
+=======================================================
+Class Avg : 71.86
+Pass Rate : 5/10
+A Grades  : 2
+Top Student: divya
+priya         340   68.0     8      C
+=======================================================
+Class Avg : 71.86
+Pass Rate : 5/10
+A Grades  : 2
+Top Student: divya
+amit          317   63.4    10      C
+=======================================================
+Class Avg : 71.86
+Pass Rate : 5/10
+A Grades  : 2
+Top Student: divya
+neha          320   64.0     9      C
+=======================================================
+Class Avg : 71.86
+Pass Rate : 5/10
+A Grades  : 2
+Top Student: divya
+ravi          348   69.6     7      C
+=======================================================
+Class Avg : 71.86
+Pass Rate : 5/10
+A Grades  : 2
+Top Student: divya
+pooja         349   69.8     6      C
+=======================================================
+Class Avg : 71.86
+Pass Rate : 5/10
+A Grades  : 2
+Top Student: divya
+karan         356   71.2     5      B
+=======================================================
+Class Avg : 71.86
+Pass Rate : 5/10
+A Grades  : 2
+Top Student: divya
+sneha         400   80.0     2      A
+=======================================================
+Class Avg : 71.86
+Pass Rate : 5/10
+A Grades  : 2
+Top Student: divya
+arjun         384   76.8     3      B
+=======================================================
+Class Avg : 71.86
+Pass Rate : 5/10
+A Grades  : 2
+Top Student: divya
+divya         406   81.2     1      A
+=======================================================
+Class Avg : 71.86
+Pass Rate : 5/10
+A Grades  : 2
+Top Student: divya
